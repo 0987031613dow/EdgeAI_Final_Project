@@ -1,20 +1,25 @@
+# 核心依賴
 datasets==3.6.0
 fsspec==2025.3.0
-vllm==0.9.0
-gptqmodel==2.2.0
-optimum[exporters]==1.25.3
 transformers==4.51.3
+optimum[exporters]==1.25.3
 torch==2.7.0
 torchaudio==2.7.0
 torchvision==0.22.0
 xformers==0.0.30
-device-smi==0.4.1
-random_word==1.0.13
+
+# LLaMA 加速與部署工具
+vllm==0.9.0
+gptqmodel==2.2.0
+compressed-tensors==0.9.4
 tokenicer==0.0.4
+device-smi==0.4.1
 logbar==0.0.4
+
+# 開發輔助與格式化
 autopep8==2.3.2
 pycodestyle==2.13.0
 python-json-logger==3.3.0
 partial-json-parser==0.2.1.1.post5
-compressed-tensors==0.9.4
 depyf==0.18.0
+random_word==1.0.13
