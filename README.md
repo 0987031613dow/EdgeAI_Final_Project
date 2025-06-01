@@ -35,7 +35,7 @@ python3 quantization.py
 
 ## Troubleshooting
 
-When running pip install -r requirements.txt, you may occasionally encounter a ModuleNotFoundError: No module named 'torch' error for certain packages (even though torch is listed in the requirements.txt file)
+When running "pip install -r requirements.txt", you may occasionally encounter a "ModuleNotFoundError: No module named 'torch'" error for certain packages (even though torch is listed in the requirements.txt file):
 <img src="./troubleshooting/torch_not_found.jpeg" width="80%" />
 
 If this happens, please run the following command to install the torch package separately, and then reinstall the remaining packages:
