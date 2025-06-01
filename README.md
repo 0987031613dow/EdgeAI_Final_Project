@@ -7,12 +7,12 @@
 ```bash
 sudo apt-get update
 sudo apt install python3-dev python3-venv
-pip install -U setuptools
 python3 -m venv t30
 source t30/bin/activate
 ```
 2. Install python packages
 ```bash
+pip install -U setuptools
 pip install -r requirements.txt
 ```
 
