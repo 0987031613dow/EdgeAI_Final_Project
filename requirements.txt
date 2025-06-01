@@ -7,6 +7,7 @@ torch==2.7.0
 torchaudio==2.7.0
 torchvision==0.22.0
 xformers==0.0.30
+huggingface_hub[cli]
 
 # LLaMA 加速與部署工具
 vllm==0.9.0
@@ -15,6 +16,11 @@ compressed-tensors==0.9.4
 tokenicer==0.0.4
 device-smi==0.4.1
 logbar==0.0.4
+
+# Finetune
+peft
+accelerate
+bitsandbytes
 
 # 開發輔助與格式化
 autopep8==2.3.2
