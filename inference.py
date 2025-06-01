@@ -105,8 +105,7 @@ def main():
 
     ### === TODO: Load your model (you may change this part) ===
     # model_name = "meta-llama/Llama-3.2-3B-Instruct"
-    ## 這邊還需要改成hugging face的model名稱
-    model_name = "./Llama-3.2-3B-Instruct-fp16-lora-gptqmodel-4bit" 
+    model_name = "ziyingchen1106/Llama-3.2-3B-Instruct-fp16-lora-gptqmodel-4bit" 
 
     # use vLLM load  model for test throughput
     vllm = LLM(

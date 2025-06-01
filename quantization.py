@@ -24,7 +24,7 @@ def chunked_calibration(texts, tokenizer, block_size=256):
 
 def main():
     # 1. 參數設定
-    base_model_id = "./merged_fp16_lora_model"
+    base_model_id = "ziyingchen1106/Llama-3.2-3B-Instruct-fp16-lora-wikitext"
     tokenizer = AutoTokenizer.from_pretrained(base_model_id)
 
     output_dir = "./Llama-3.2-3B-Instruct-fp16-lora-gptqmodel-4bit"
