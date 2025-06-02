@@ -195,7 +195,7 @@ def main():
         end.record()
         torch.cuda.synchronize()
         elapsed_ms = start.elapsed_time(end)
-        tput = max_new_tokens / (elapsed_ms / 1000)
+        tput = generated[0][input_ids.shape[1]:].shape[0]/(elapsed_ms / 1000)
         time_record.append(elapsed_ms / 1000)
         tputs.append(tput)
 
