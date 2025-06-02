@@ -11,9 +11,6 @@ from torch.cuda.amp import autocast
 from vllm import LLM, SamplingParams
 
 
-
-"""Inference throughput on vllm"""
-
 #####################################################################
 # === SPEC NOTICE ===
 # Only "load model" and "generate" function selection can be modified.

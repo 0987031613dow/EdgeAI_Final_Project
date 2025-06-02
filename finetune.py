@@ -7,8 +7,6 @@ from transformers import (AutoModelForCausalLM, AutoTokenizer,
                           DataCollatorForLanguageModeling)
 from peft import LoraConfig, get_peft_model
 
-"""Finetune Llama3.2 3B model on A100 GPU using PEFT in fp16"""
-#!pip install peft accelerate bitsandbytes
 
 # ── 0. 基本設定 ───────────────────────────────────────────────
 os.environ["TOKENIZERS_PARALLELISM"] = "false"

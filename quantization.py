@@ -5,8 +5,6 @@ from gptqmodel import QuantizeConfig, GPTQModel
 from transformers import AutoTokenizer
 
 
-"""GPTQMODEL 4bit quantization"""
-
 def chunked_calibration(texts, tokenizer, block_size=256):
     # 將長文本串接並切成固定長度的 block
     full = "\n\n".join(texts)
